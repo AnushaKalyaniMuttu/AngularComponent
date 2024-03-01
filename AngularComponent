@@ -1,1 +1,8 @@
 Whenever a component is created should be declared inside the angular.module.ts
+in the NgModule we have declarations , imports, providers, bootstrap, 
+The newly created modules should be defined inside the declarations and in the import we should only give component but not component.js
+Example 
+when you create a component we have .ts, .html, .css file
+after it is added in the ngmodules of app.module.ts we need to import it
+consider we have warning component we write import as 
+import {WarningComponent} from {./warning/warning.component}
