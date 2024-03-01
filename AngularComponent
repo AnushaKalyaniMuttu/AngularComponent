@@ -1,0 +1,1 @@
+Whenever a component is created should be declared inside the angular.module.ts
